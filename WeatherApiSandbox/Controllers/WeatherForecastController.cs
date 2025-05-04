@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using WeatherApiSandbox.Utils;
 
 namespace WeatherApiSandbox.Controllers
 {
@@ -21,6 +22,8 @@ namespace WeatherApiSandbox.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            new RandomClass().ReturnName();
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),

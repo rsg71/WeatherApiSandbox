@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApiSandbox", "WeatherApiSandbox\WeatherApiSandbox.csproj", "{26DD70A9-61FC-490B-AD5F-1BAC9AEB2482}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApiSandbox.Tests", "WeatherApiSandbox.Tests\WeatherApiSandbox.Tests.csproj", "{1294E7CA-63CF-4B63-AB79-8F665ADEBBD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{26DD70A9-61FC-490B-AD5F-1BAC9AEB2482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26DD70A9-61FC-490B-AD5F-1BAC9AEB2482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26DD70A9-61FC-490B-AD5F-1BAC9AEB2482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1294E7CA-63CF-4B63-AB79-8F665ADEBBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1294E7CA-63CF-4B63-AB79-8F665ADEBBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1294E7CA-63CF-4B63-AB79-8F665ADEBBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1294E7CA-63CF-4B63-AB79-8F665ADEBBD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
